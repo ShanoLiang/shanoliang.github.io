@@ -1,0 +1,402 @@
+/* Customized Color Palette */
+
+/* Neutral Colors */
+:root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-gray-light: #c9c9c9;
+    --color-gray-dark: #333333;
+  
+    /* Cyan Colors */
+    --color-cyan-light: #a8d5e2;
+    --color-cyan: #00a3cc;
+    --color-cyan-dark: #0098b3;
+    --color-cyan-highlight: #00c9ec;
+  
+    /* Red Colors */
+    --color-secondary-light: #ffcccb;
+    --color-secondary: #ff6347;
+    --color-secondary-dark: #b22222;
+  
+    /* Yellow Colors */
+    --color-accent-light: #ffda77;
+    --color-accent: #ffc107;
+    --color-accent-dark: #ff8c00;
+  
+    /* More Theme Colors */
+    --color-theme-sky: #87ceeb;
+    --color-theme-forest: #228b22;
+    --color-theme-sunset: #ff4500;
+    --color-theme-midnight: #191970;
+  }
+
+  /* Define Custom Badge Colors */
+.badge-custom-cyan {
+    background-color: var(--color-cyan-dark);
+    color: var(--color-white);
+}
+
+.color-text-cyan {
+    color: #00929c; /* Set the text color */
+    font-weight: bold; /* Make it bold */
+}
+
+.color-text-cyan-light {
+    color: #00dfdf; /* Set the text color */
+}
+
+.bg-c-dark {
+    background-color: #303030; /* Set the background color */
+}
+
+
+/* Rounded Frame Button */
+.btn-rounded {
+    border: 1px solid var(--color-gray-dark); /* Customize border color */
+    border-radius: 50px; /* Adjust for more or less rounding */
+    padding: 0px 5px; /* Add padding for better sizing */
+    background-color: transparent; /* Transparent background */
+    color: var(--color-black); /* Text color */
+    font-size: 20px; /* Adjust font size */
+    cursor: pointer; /* Show pointer on hover */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+.btn-rounded:hover {
+    background-color: var(--color-cyan);
+    color: var(--color-white); /* Change text color on hover */
+    border-color: var(--color-cyan); /* Consistent border */
+}
+
+
+
+/* Rounded Text Frame Button */
+.btn-rounded-text {
+    border: 1px solid var(--color-white); /* Customize border color */
+    border-radius: 5px; /* Adjust for more or less rounding */
+    padding: 0px 5px; /* Add padding for better sizing */
+    background-color: transparent; /* Transparent background */
+    color: var(--color-gray-dark); /* Text color */
+    font-size: 15px; /* Adjust font size */
+    cursor: pointer; /* Show pointer on hover */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Text Hover Effect */
+.btn-rounded-text:hover {
+    background-color: var(--color-gray-dark);
+    color: var(--color-white); /* Change text color on hover */
+    border-color: var(--color-gray-dark); /* Consistent border */
+}
+
+/* Rounded Text Frame Button */
+.btn-rounded-text-d {
+    border: 1px solid var(--color-white); /* Customize border color */
+    border-radius: 5px; /* Adjust for more or less rounding */
+    padding: 0px 5px; /* Add padding for better sizing */
+    background-color: transparent; /* Transparent background */
+    color: var(--color-gray-dark); /* Text color */
+    font-size: 15px; /* Adjust font size */
+    cursor: default !important; /* Show pointer on hover */
+}
+
+
+
+
+/* Rounded 02 Frame Button */
+.btn-rounded-02 {
+    border: 1px solid var(--color-white); /* Customize border color */
+    border-radius: 50px; /* Adjust for more or less rounding */
+    padding: 0px 5px; /* Add padding for better sizing */
+    background-color: transparent; /* Transparent background */
+    color: var(--color-gray-dark); /* Text color */
+    font-size: 20px; /* Adjust font size */
+    cursor: pointer; /* Show pointer on hover */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* 02 Hover Effect */
+.btn-rounded-02:hover {
+    background-color: var(--color-cyan);
+    color: var(--color-white); /* Change text color on hover */
+    border-color: var(--color-cyan); /* Consistent border */
+}
+
+
+/* Rounded 03 Frame Button */
+.btn-rounded-03 {
+    border: 1px solid var(--color-gray-dark); /* Customize border color */
+    border-radius: 50px; /* Adjust for more or less rounding */
+    padding: 0px 8px; /* Add padding for better sizing */
+    background-color: transparent; /* Transparent background */
+    color: var(--color-black); /* Text color */
+    font-size: 15px; /* Adjust font size */
+    cursor: pointer; /* Show pointer on hover */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* 03 Hover Effect */
+.btn-rounded-03::before {
+    background-color: var(--color-cyan);
+    color: var(--color-white); /* Change text color on hover */
+    border-color: var(--color-cyan); /* Consistent border */
+}
+
+
+
+.btn-rounded-04 {
+    border: 1px solid var(--color-white); /* Customize border color */
+    border-radius: 5px; /* Adjust for more or less rounding */
+    padding: 2px 10px; /* Add padding for better sizing */
+    background-color: transparent; /* Transparent background */
+    color: var(--color-black); /* Text color */
+    font-size: 25px; /* Adjust font size */
+    cursor: pointer; /* Show pointer on hover */
+    transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover Effect */
+.btn-rounded-04:hover {
+    background-color: var(--color-cyan);
+    color: var(--color-white); /* Change text color on hover */
+    border-color: var(--color-cyan); /* Consistent border */
+}
+
+
+/* Rounded 05 Frame Button */
+.btn-rounded-05 {
+    border: 2px solid var(--color-white); /* Customize border color */
+    border-radius: 50px; /* Adjust for more or less rounding */
+    padding: 0px 5px; /* Add padding for better sizing */
+    background-color: transparent; /* Transparent background */
+    color: var(--color-white); /* Text color */
+    font-size: 20px; /* Adjust font size */
+    cursor: pointer; /* Show pointer on hover */
+    transition: all 0.2s ease; /* Smooth hover effect */
+}
+
+/* 05 Hover Effect */
+.btn-rounded-05:hover {
+    background-color: var(--color-cyan);
+    color: var(--color-dark); /* Change text color on hover */
+    border-color: var(--color-white); /* Consistent border */
+}
+
+
+
+
+
+/* Tooltip container */
+.tooltip-container {
+    position: relative; /* Necessary for positioning the tooltip */
+    display: inline-block; /* Keep the tooltip with the button */
+}
+
+/* Tooltip text */
+.tooltip-text {
+    visibility: hidden; /* Initially hide the tooltip */
+    background-color: #333; /* Tooltip background color */
+    color: #fff; /* Tooltip text color */
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 4px;
+    position: absolute;
+    /* bottom: 120%;*/ /* Position above the button */
+    top: 120%; /* Position below the button */
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    z-index: 1;
+    opacity: 0; /* Make it transparent */
+    transition: opacity 0.3s ease;
+}
+
+/* Tooltip arrow */
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    /*top: 100%;*/ /* Position the arrow below the tooltip */
+    bottom: 100%; /* Position the arrow above the tooltip */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+
+/* Show the tooltip on hover */
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1; /* Fade-in effect */
+}
+
+
+
+
+
+/* Tooltip container */
+.image-tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+/* Button styling */
+.tooltip-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: var(--color-white);
+    color: var(--color-dark);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Tooltip window styling */
+.image-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    bottom: 120%; /* Position below the button */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--color-white);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    z-index: 1;
+    transition: opacity 0.3s ease;
+}
+
+/* Tooltip image styling */
+.image-tooltip img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+/* Show tooltip on hover */
+.image-tooltip-container:hover .image-tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+.oversized-text {
+    font-size: 4rem; /* Set the size in rem for scalability */
+    font-weight: bold; /* Make the text bold */
+    line-height: 1.2; /* Adjust line spacing for better readability */
+    text-align: center; /* Center align the text */
+    color: #333; /* Set the text color */
+}
+
+.oversized-text-cm {
+    font-size: 2rem; /* Set the size in rem for scalability */
+    font-weight: bold; /* Make the text bold */
+    line-height: 0.4; /* Adjust line spacing for better readability */
+    text-align: center; /* Center align the text */
+    color: #00f8f8; /* Set the text color */
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5), 0px 0px 4px rgb(0, 0, 0); /* Add text shadow */
+}
+
+.oversized-text-cms {
+    font-size: 2rem; /* Set the size in rem for scalability */
+    font-weight: bold; /* Make the text bold */
+    line-height: 1.2; /* Adjust line spacing for better readability */
+    text-align: center; /* Center align the text */
+    color: #00f8f8; /* Set the text color */
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5), 0px 0px 4px rgb(0, 0, 0); /* Add text shadow */
+}
+
+.oversized-text-cms-n {
+    font-size: 2rem; /* Set the size in rem for scalability */
+    font-weight: bold; /* Make the text bold */
+    line-height: 1.2; /* Adjust line spacing for better readability */
+    text-align: center; /* Center align the text */
+    color: #00f8f8; /* Set the text color */
+}
+
+.oversized-text-cdms-n {
+    font-size: 2rem; /* Set the size in rem for scalability */
+    font-weight: bold; /* Make the text bold */
+    line-height: 1; /* Adjust line spacing for better readability */
+    text-align: center; /* Center align the text */
+    color: #00a8a8; /* Set the text color */
+}
+
+
+
+
+.oversized-text-wb {
+    font-size: 3rem; /* Set the size in rem for scalability */
+    font-weight: bold; /* Make the text bold */
+    line-height: 1.0; /* Adjust line spacing for better readability */
+    text-align: center; /* Center align the text */
+    color: #ffffff; /* Set the text color */
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5), 0px 0px 4px rgb(0, 0, 0); /* Add text shadow */
+}
+
+.oversized-text-wbs {
+    font-size: 2.5rem; /* Set the size in rem for scalability */
+    font-weight: bold; /* Make the text bold */
+    line-height: 1.0; /* Adjust line spacing for better readability */
+    text-align: center; /* Center align the text */
+    color: #ffffff; /* Set the text color */
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5), 0px 0px 4px rgb(0, 0, 0); /* Add text shadow */
+}
+
+
+.oversized-text-bb {
+    font-size: 3rem; /* Set the size in rem for scalability */
+    font-weight: bold; /* Make the text bold */
+    line-height: 1.0; /* Adjust line spacing for better readability */
+    text-align: center; /* Center align the text */
+    color: #292929; /* Set the text color */
+}
+
+
+
+
+.image-container {
+    position: relative; /* Create a positioning context for the text */
+    display: inline-block; /* Ensure the container wraps around the image */
+}
+
+.image-container img {
+    display: block; /* Prevent image from having extra space below */
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.position-relative {
+    position: relative; /* Create a positioning context for overlay text */
+    display: inline-block; /* Keep the image and overlay text together */
+}
+
+.overlay-text {
+    position: absolute; /* Position text over the image */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to be fully centered */
+    width: 80%; /* Set the width of the frame (adjust as needed) */
+    padding: 5px; /* Optional: Add padding inside the frame */
+}
+
+.overlay-text-b {
+    position: absolute; /* Position text over the image */
+    top: 90%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust to be fully centered */
+    width: 80%; /* Set the width of the frame (adjust as needed) */
+    padding: 5px; /* Optional: Add padding inside the frame */
+}
+
+.bg-image-container {
+    background-repeat: no-repeat; /* Prevent tiling */
+    background-position: center center; /* Center the image */
+    background-size: cover; /* Scale the image to cover the container */
+    display: flex; /* Optionally, use flexbox to align content */
+}
