@@ -45,6 +45,11 @@
     color: #00dfdf; /* Set the text color */
 }
 
+.color-text-mediacoverage {
+    color: #1e5aff; /* Set the text color */
+    font-size: 16px;
+}
+
 .bg-c-dark {
     background-color: #303030; /* Set the background color */
 }
